@@ -19,6 +19,8 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="/post/:id" element={<Postpage />} />
           <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} /> */}
         </Routes>
         <Footer />
       </div>

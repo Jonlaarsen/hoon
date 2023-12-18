@@ -234,4 +234,8 @@ hr{
     padding: 0;
     margin: 0;
   }
+  .hero-container h1{
+    font-size: 16px;
+
+  }
 }
