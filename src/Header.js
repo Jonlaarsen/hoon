@@ -5,10 +5,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header-container">
-      <div>
-        <img className="logo" src={logo} alt="logo"></img>
-      </div>
-      <div>
+      <img className="logo" src={logo} alt="logo"></img>
+
+      <div className="btn-container">
         <Link to="/contact">
           <button className="button">contact</button>
         </Link>
