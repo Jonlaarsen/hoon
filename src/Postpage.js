@@ -34,8 +34,8 @@ const Postpage = () => {
                 console.log(images);
                 return (
                   <div className="image-container">
-                    <img alt="logo" src={images.src}></img>
-                    <small className="images">{images.desc}</small>
+                    <img className="images" alt="logo" src={images.src}></img>
+                    <small>{images.desc}</small>
                   </div>
                 );
               })}

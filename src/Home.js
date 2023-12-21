@@ -112,10 +112,8 @@ const Home = () => {
                     alt="pic"
                   ></img>
                   <div className="info">
-                    <small>
-                      {post.date}
-                      {post.brand}
-                    </small>
+                    <small>{post.date}</small>
+                    <small>{post.brand}</small>
                     <hr></hr>
                     <h2>{post.title}</h2>
                     <p>{post.subtitle}</p>

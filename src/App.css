@@ -76,7 +76,7 @@
   position: absolute;
   text-align: center;
   right: 50%;
-  left: 42%;
+  left: 43.5%;
   width: auto;
   color: white;
   font-size: 100px;
@@ -108,6 +108,9 @@
 .card > img{
   width: 50rem;
   filter: grayscale(1);
+}
+.info > small{
+  padding-right: 200px;
 }
 .card > .info{
   margin-left: 2rem;
@@ -162,8 +165,12 @@ hr{
   width: 100%;
 }
 .images{
-  padding-bottom: 5rem;
+  padding-bottom: 20px;
   margin-left: 20px;
+}
+
+.image-container small{
+  padding-bottom: 40px;
 }
 .button-container{
   display: flex;
@@ -171,7 +178,11 @@ hr{
   justify-content: center;
   padding-bottom: 3rem;
 }
+.card-img{
+  width: 1200px;
+}
 .image-container{
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
@@ -251,10 +262,17 @@ hr{
     padding-top: 50px;
   }
 
-  .card-img, .images{
+   .images{
     height: auto;
     width: 250px;
+    padding-bottom: 5px;
   } 
+  .image-container small{
+    padding-bottom: 40px;
+  }
+  .card-img{
+    width: 300px;
+  }
 
   .info-singel{
     width: 300px;

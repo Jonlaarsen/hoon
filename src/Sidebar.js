@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { slide as Menu } from "react-burger-menu";
+import { Link } from "react-router-dom";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {
@@ -19,9 +20,9 @@ export default (props) => {
       onClose={handleIsOpen}
       {...props}
     >
-      <a onClick={closeSideBar} className="menu-item" href="/">
+      <Link onClick={closeSideBar} className="menu-item" to="/">
         Home
-      </a>
+      </Link>
 
       <a onClick={closeSideBar} className="menu-item" href="#skateboard">
         skateboarding
